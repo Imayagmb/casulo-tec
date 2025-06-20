@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casulo Tecnológico - Desenvolvendo Talentos em Tech</title>
+    <meta name="description" content="O Casulo Tecnológico incuba jovens talentos com React.js, HTML, CSS e tecnologias modernas através de projetos reais e mentoria especializada.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="icon" type="image/png" href="img/Casulo-tecnologico-borboleta.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navegação -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <img src="img/Casulo-tecnologico-borboleta.png" alt="Casulo Tech Logo" class="logo-img">
+                <span>Casulo Tech</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Início</a>
+                <a href="#sobre" class="nav-link">Sobre</a>
+                <a href="#processo" class="nav-link">processoo</a>
+                <a href="#ofertas" class="nav-link">Oferecemos</a>
+                <a href="#inscricoes" class="nav-link">Inscrições</a>
+                <a href="#contact" class="nav-link">Contato</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-background">
+            <div class="particles" id="particles"></div>
+            <div class="hero-gradient"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-image">
+                <div class="casulo-container">
+                    <img src="img/Casulo-tecnologico-borboleta.png" alt="Casulo Tecnológico" class="casulo-butterfly">
+                </div>
+            </div>
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Casulo</span> Tecnológico
+                </h1>
+                <p class="hero-subtitle">
+                    Desenvolvendo talentos em projetos reais com <strong>React.js</strong>, <strong>HTML</strong>, <strong>CSS</strong> e muito mais.
+                </p>
+                <button class="qp-button" id="qp-button">
+                    <span>Quero Participar</span>
+                    <i class="fas fa-rocket"></i>
+                </button>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section class="sobre" id="sobre">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">O que é o <span class="gradient-text">Casulo</span>?</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="sobre-content">
+                <div class="sobre-text">
+                    <p class="sobre-description">
+                        O <strong>Casulo Tecnológico</strong> é uma iniciativa inovadora para incubar jovens talentos na área de tecnologia. 
+                        Utilizamos metodologias ágeis, tecnologias modernas e mentoria especializada para transformar 
+                        potencial em expertise real.
+                    </p>
+                    <div class="sobre-features">
+                        <div class="feature-item">
+                            <i class="fas fa-lightbulb"></i>
+                            <span>Inovação Constante</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-users"></i>
+                            <span>Mentoria Especializada</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-project-diagram"></i>
+                            <span>Projetos Reais</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sobre-visual">
+                    <div class="metamorphosis">
+                        <div class="stage stage-1">
+                            <i class="fas fa-seedling"></i>
+                            <span>Iniciante</span>
+                        </div>
+                        <div class="arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                        <div class="stage stage-2">
+                            <i class="fas fa-laptop-code"></i>
+                            <span>Desenvolvedor</span>
+                        </div>
+                        <div class="arrow">
+                            <i class="fas fa-arrow-right"></i>
+                        </div>
+                        <div class="stage stage-3">
+                            <i class="fas fa-crown"></i>
+                            <span>Expert</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- processo Section -->
+    <section class="processo" id="processo">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Como <span class="gradient-text">Funciona</span>?</h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="processo-timeline">
+                <div class="timeline-item" data-step="1">
+                    <div class="timeline-icon">
+                        <i class="fas fa-user-plus"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Inscrição</h3>
+                        <p>Complete sua inscrição e conte-nos sobre seus objetivos e experiência atual.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-step="2">
+                    <div class="timeline-icon">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Seleção</h3>
+                        <p>processo de seleção cuidadoso para identificar potencial e motivação.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-step="3">
+                    <div class="timeline-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Capacitação</h3>
+                        <p>Treinamento intensivo com mentores experientes e metodologias práticas.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-step="4">
+                    <div class="timeline-icon">
+                        <i class="fas fa-tools"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Projetos Reais</h3>
+                        <p>Aplicação prática em projetos reais com impacto mensurável.</p>
+                    </div>
+                </div>
+                <div class="timeline-item" data-step="5">
+                    <div class="timeline-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Oportunidades</h3>
+                        <p>Conexão direta com empresas parceiras e oportunidades de carreira.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ofertas Section -->
+    <section class="ofertas" id="ofertas">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">O que <span class="gradient-text">Oferecemos</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="ofertas-grid">
+                <div class="oferta-card" data-category="tech">
+                    <div class="card-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>Tecnologias</h3>
+                    <p>Treinamento prático com <strong>React.js</strong>, <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, <strong>Node.js</strong> e <strong>Git</strong>.</p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">React</span>
+                        <span class="tech-badge">JavaScript</span>
+                        <span class="tech-badge">Node.js</span>
+                        <span class="tech-badge">Git</span>
+                    </div>
+                </div>
+                <div class="oferta-card" data-category="network">
+                    <div class="card-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3>Conexões</h3>
+                    <p>Acesso direto a redes de parceiros, empresas e oportunidades reais no mercado de tecnologia.</p>
+                    <div class="connection-stats">
+                        <div class="stat">
+                            <span class="stat-number">50+</span>
+                            <span class="stat-label">Empresas Parceiras</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number">200+</span>
+                            <span class="stat-label">Profissionais</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="oferta-card" data-category="mentoring">
+                    <div class="card-icon">
+                        <i class="fas fa-user-graduate"></i>
+                    </div>
+                    <h3>Mentorias</h3>
+                    <p>Suporte personalizado com profissionais experientes da área de tecnologia e mercado.</p>
+                    <div class="mentor-features">
+                        <div class="feature"><i class="fas fa-check"></i> Sessões 1:1</div>
+                        <div class="feature"><i class="fas fa-check"></i> Code Review</div>
+                        <div class="feature"><i class="fas fa-check"></i> Career Guidance</div>
+                    </div>
+                </div>
+                <div class="oferta-card" data-category="projects">
+                    <div class="card-icon">
+                        <i class="fas fa-hammer"></i>
+                    </div>
+                    <h3>Projetos</h3>
+                    <p>Participação ativa em projetos de verdade, com impacto real e experiência profissional.</p>
+                    <div class="project-types">
+                        <div class="project-type">
+                            <i class="fas fa-globe"></i>
+                            <span>Web Apps</span>
+                        </div>
+                        <div class="project-type">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Mobile</span>
+                        </div>
+                        <div class="project-type">
+                            <i class="fas fa-cloud"></i>
+                            <span>Cloud</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Inscricoes -->
+    <section class="inscricoes" id="inscricoes">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Faça sua <span class="gradient-text">Inscrição</span></h2>
+                <div class="section-line"></div>
+                <p class="section-subtitle">Transforme seu futuro na tecnologia. Preencha o formulário abaixo e dê o primeiro passo.</p>
+            </div>
+            <div class="inscricao-content">
+                <form class="inscricao-form" id="inscricao-form">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nome">Nome Completo</label>
+                            <input type="text" id="nome" name="nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="telefone">Telefone</label>
+                            <input type="tel" id="telefone" name="telefone" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="idade">Idade</label>
+                            <input type="number" id="idade" name="idade" min="18" max="65" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="experiencia">Nível de Experiência</label>
+                        <select id="experiencia" name="experiencia" required>
+                            <option value="">Selecione seu nível</option>
+                            <option value="iniciante">Iniciante - Nunca programei</option>
+                            <option value="basico">Básico - Já fiz alguns cursos</option>
+                            <option value="intermediario">Intermediário - Tenho alguns projetos</option>
+                            <option value="avancado">Avançado - Trabalho na área</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="tecnologias">Tecnologias de Interesse (marque todas que se aplicam)</label>
+                        <div class="checkbox-group">
+                            <label class="checkbox-item">
+                                <input type="checkbox" name="tecnologias" value="react">
+                                <span class="checkmark"></span>
+                                React.js
+                            </label>
+                            <label class="checkbox-item">
+                                <input type="checkbox" name="tecnologias" value="javascript">
+                                <span class="checkmark"></span>
+                                JavaScript
+                            </label>
+                            <label class="checkbox-item">
+                                <input type="checkbox" name="tecnologias" value="html-css">
+                                <span class="checkmark"></span>
+                                HTML & CSS
+                            </label>
+                            <label class="checkbox-item">
+                                <input type="checkbox" name="tecnologias" value="nodejs">
+                                <span class="checkmark"></span>
+                                Node.js
+                            </label>
+                            <label class="checkbox-item">
+                                <input type="checkbox" name="tecnologias" value="python">
+                                <span class="checkmark"></span>
+                                Python
+                            </label>
+                            <label class="checkbox-item">
+                                <input type="checkbox" name="tecnologias" value="mobile">
+                                <span class="checkmark"></span>
+                                Desenvolvimento Mobile
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="motivacao">Por que você quer participar do Casulo Tecnológico?</label>
+                        <textarea id="motivacao" name="motivacao" rows="4" placeholder="Conte-nos sobre seus objetivos e motivações..." required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="disponibilidade">Disponibilidade de Tempo</label>
+                        <select id="disponibilidade" name="disponibilidade" required>
+                            <option value="">Selecione sua disponibilidade</option>
+                            <option value="integral">Tempo integral (40h/semana)</option>
+                            <option value="parcial">Meio período (20h/semana)</option>
+                            <option value="noturno">Período noturno (15h/semana)</option>
+                            <option value="fins-semana">Fins de semana (10h/semana)</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="submit-button">
+                        <span>Enviar Inscrição</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+                <div class="inscricao-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-calendar-alt"></i>
+                        </div>
+                        <h4>Próxima Turma</h4>
+                        <p>Início em <strong>Janeiro 2027</strong></p>
+                        <p>Inscrições 1° de Outubro até 9 de Nobembro de 2027 </p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <h4>Vagas Limitadas</h4>
+                        <p>Apenas <strong>10 vagas</strong> disponíveis</p>
+                        <p>processoo seletivo rigoroso</p>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-gift"></i>
+                        </div>
+                        <h4>100% Gratuito</h4>
+                        <p>Sem custos para participar</p>
+                        <p>Materiais e mentoria inclusos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- resultado -->
+    <section class="resultado" id="resultado">
+        <div class="container">
+            <div class="resultado-content">
+                <div class="resultado-stats">
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="10">0</div>
+                        <div class="stat-label">Alunos Formados</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="95">0</div>
+                        <div class="stat-label">Taxa de Empregabilidade (%)</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="100">0</div>
+                        <div class="stat-label">Projetos Realizados</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number" data-target="50">0</div>
+                        <div class="stat-label">Empresas Parceiras</div>
+                    </div>
+                </div>
+
+
+
+    <div class="carrossel-depoimentos">
+        <div class="carrossel-wrapper">
+            <!-- Depoimento 1 -->
+            <div class="depoimento">
+            <div class="depoimento-content">
+                <blockquote>
+                "O Casulo Tecnológico transformou completamente minha carreira. Em 6 meses, saí de iniciante para desenvolvedor júnior em uma startup incrível!"
+                </blockquote>
+                <div class="depoimento-autor">
+                <div class="autor-avatar">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="autor-info">
+                    <span class="autor-name">Ramon Barbosa</span>
+                    <span class="autor-role">Desenvolvedor React</span>
+                </div>
+                </div>
+            </div>
+            </div>
+
+            <!-- Depoimento 2 -->
+            <div class="depoimento">
+            <div class="depoimento-content">
+                <blockquote>
+                "O Casulo Tecnológico foi um verdadeiro divisor de águas na minha trajetória. Depois de 2 anos tentando entrar na área de tecnologia sem sucesso, em apenas 3 meses no programa conquistei meu primeiro estágio! Algo que antes parecia tão distante se tornou realidade graças ao apoio, às ferramentas e à direção que o Casulo me proporcionou. Hoje sigo evoluindo com muito mais confiança e propósito na minha carreira."
+                </blockquote>
+                <div class="depoimento-autor">
+                <div class="autor-avatar">
+                    <i class="fas fa-user"></i>
+                </div>
+                <div class="autor-info">
+                    <span class="autor-name">Mayara Gonçalves</span>
+                    <span class="autor-role">Desenvolvedora FullStack</span>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="img/Casulo-tecnologico-borboleta.png" alt="Casulo Tech Logo" class="logo-img">
+                        <span>Casulo Tecnológico</span>
+                    </div>
+                    <p>Transformando potencial em expertise através da tecnologia e inovação.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-x"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="#sobre">Sobre Nós</a></li>
+                        <li><a href="#processo">Como Funciona</a></li>
+                        <li><a href="#ofertas">Oferecemos</a></li>
+                        <li><a href="#inscricoes">Inscrições</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Tecnologias</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">React.js</a></li>
+                        <li><a href="#">JavaScript</a></li>
+                        <li><a href="#">Node.js</a></li>
+                        <li><a href="#">HTML & CSS</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contato</h4>
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>contato@casulotech.com</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <span>+55 (21) 4002-8922</span>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Rio de Janeiro, RJ</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="footer-divider"></div>
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 Casulo Tecnológico. Todos os direitos reservados.</p>
+                    <div class="footer-bottom-links">
+                        <a href="#">Termos de Uso</a>
+                        <a href="#">Política de Privacidade</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
