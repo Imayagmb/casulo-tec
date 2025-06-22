@@ -1011,19 +1011,19 @@ a {
     color: var(--azul-eletric);
 }
 
-.contact-info {
+.contato-info {
     display: flex;
     flex-direction: column;
     gap: var(--spacing-sm);
 }
 
-.contact-item {
+.contato-item {
     display: flex;
     align-items: center;
     gap: var(--spacing-sm);
 }
 
-.contact-item i {
+.contato-item i {
     color: var(--azul-eletric);
     width: 20px;
 }
