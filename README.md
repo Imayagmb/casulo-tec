@@ -47,14 +47,14 @@ Este projeto foi construído com:
 O repositório está organizado da seguinte forma:
 
 /
-├── index.html
-├── css/
-│ └── styles.css
-├── js/
-│ └── script.js
-├── assets/
-│ └── imagens/
-├── README.md
+- ├── index.html
+- ├── css
+- │   └── styles.css
+- ├── js
+- │   └── script.js
+- ├── assets
+- │   └── imagens
+- └── README.md
 
 
 ---
