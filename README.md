@@ -1,4 +1,4 @@
-# 🌱 Casulo Tecnológico vs 2.0
+# Casulo Tecnológico
 
 Bem-vindo(a) ao **Casulo Tecnológico** — um site interativo e informativo desenvolvido com **HTML, CSS e JavaScript**, projetado para apresentar essa iniciativa de formação de talentos em tecnologia.
 
